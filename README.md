@@ -1,16 +1,51 @@
-# React + Vite
+# 🎁 Regalo para Macarena
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Feliz Cumpleaños! Este proyecto es una aplicación web interactiva creada con mucho cariño como regalo de cumpleaños para Macarena. Es una experiencia digital única que combina tecnología, creatividad y detalles personales.
 
-Currently, two official plugins are available:
+## ✨ Características del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El regalo consta de varios "mundos" o secciones interactivas:
 
-## React Compiler
+### 🤖 ChatBot (Jamir AI)
+Un asistente virtual personalizado basado en **Google Gemini AI**.
+- **Avatar Interactivo**: Jamir reacciona con diferentes emociones y animaciones (bailar, pensar, saludar, etc.) según la conversación.
+- **Inteligencia Artificial**: Capaz de mantener conversaciones, responder preguntas y reaccionar a palabras clave especiales (como "tulipanes", "código", "triste").
+- **Modo Crush**: ¡Pregúntale quién le gusta para ver una reacción especial!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🐱 MichiWorld
+Un minijuego o sección dedicada a los michis (gatos), con mecánicas divertidas y visuales encantadores.
 
-## Expanding the ESLint configuration
+### 🧬 BioWorld
+Una sección temática inspirada en la biotecnología, reflejando los intereses de Macarena.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto ha sido construido utilizando tecnologías web modernas:
+
+- **Core**: [React](https://react.dev/) + [Vite](https://vitejs.dev/) para un rendimiento ultrarrápido.
+- **Estilos**: [Tailwind CSS](https://tailwindcss.com/) para un diseño moderno y responsivo.
+- **Animaciones**: [Framer Motion](https://www.framer.com/motion/) para transiciones suaves y efectos visuales.
+- **IA**: [Google Gemini API](https://ai.google.dev/) para dar vida al ChatBot.
+- **Iconos**: [Lucide React](https://lucide.dev/) para una interfaz limpia y elegante.
+
+## 🚀 Desarrollo e Instalación
+
+Si deseas ejecutar este proyecto localmente:
+
+1.  **Clonar el repositorio**
+2.  **Instalar dependencias**:
+    ```bash
+    npm install
+    ```
+3.  **Configurar Variables de Entorno**:
+    Crea un archivo `.env` en la raíz del proyecto y añade tu API Key de Gemini:
+    ```env
+    VITE_GEMINI_API_KEY=tu_api_key_aqui
+    ```
+4.  **Ejecutar el servidor de desarrollo**:
+    ```bash
+    npm run dev
+    ```
+
+---
+*Hecho con ❤️ por Yamir*
