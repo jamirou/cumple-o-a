@@ -1,31 +1,27 @@
-# 🎁 Regalo para Macarena
+# 🎁
 
-¡Feliz Cumpleaños! Este proyecto es una aplicación web interactiva creada con mucho cariño como regalo de cumpleaños para Macarena. Es una experiencia digital única que combina tecnología, creatividad y detalles personales.
+## ✨ Características
 
-## ✨ Características del Proyecto
+El proyecto consta de varios "mundos" 
 
-El regalo consta de varios "mundos" o secciones interactivas:
-
-### 🤖 ChatBot (Jamir AI)
+### 🤖 ChatBot
 Un asistente virtual personalizado basado en **Google Gemini AI**.
-- **Avatar Interactivo**: Jamir reacciona con diferentes emociones y animaciones (bailar, pensar, saludar, etc.) según la conversación.
+- **Avatar Interactivo**: El avatar reacciona con diferentes emociones y animaciones (bailar, pensar, saludar, etc.) según la conversación.
 - **Inteligencia Artificial**: Capaz de mantener conversaciones, responder preguntas y reaccionar a palabras clave especiales (como "tulipanes", "código", "triste").
-- **Modo Crush**: ¡Pregúntale quién le gusta para ver una reacción especial!
 
 ### 🐱 MichiWorld
-Un minijuego o sección dedicada a los michis (gatos), con mecánicas divertidas y visuales encantadores.
-
+Un minijuego o sección dedicada a los michis (gatos)
 ### 🧬 BioWorld
-Una sección temática inspirada en la biotecnología, reflejando los intereses de Macarena.
+Una sección temática inspirada en la biotecnología.
 
 ## 🛠️ Tecnologías Utilizadas
 
-Este proyecto ha sido construido utilizando tecnologías web modernas:
+Este proyecto ha sido construido utilizando:
 
-- **Core**: [React](https://react.dev/) + [Vite](https://vitejs.dev/) para un rendimiento ultrarrápido.
+- **Core**: [React](https://react.dev/) + [Vite](https://vitejs.dev/) para rendimiento .
 - **Estilos**: [Tailwind CSS](https://tailwindcss.com/) para un diseño moderno y responsivo.
 - **Animaciones**: [Framer Motion](https://www.framer.com/motion/) para transiciones suaves y efectos visuales.
-- **IA**: [Google Gemini API](https://ai.google.dev/) para dar vida al ChatBot.
+- **IA**: [Google Gemini API](https://ai.google.dev/) para ChatBot.
 - **Iconos**: [Lucide React](https://lucide.dev/) para una interfaz limpia y elegante.
 
 ## 🚀 Desarrollo e Instalación
@@ -46,6 +42,3 @@ Si deseas ejecutar este proyecto localmente:
     ```bash
     npm run dev
     ```
-
----
-*Hecho con ❤️ por Yamir*
